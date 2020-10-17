@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
+    <PythonExport
+        Father="GeoFeaturePy"
+        Name="PostPipelinePy"
+        Twin="PostPipeline"
+        TwinPointer="PostPipeline"
+        Include="Mod/Cfd/App/PostPipeline.h"
+        Namespace="Cfd"
+        FatherInclude="App/GeoFeaturePy.h"
+        FatherNamespace="App">
+        <Documentation>
+            <Author Licence="LGPL" Name="Nene Li" EMail="nene_lee@163.com" />
+            <UserDocu>The PostPipeline class.</UserDocu>
+        </Documentation>
+      <Methode Name="getLastPostObject">
+        <Documentation>
+          <UserDocu>Get the last post-processing object</UserDocu>
+        </Documentation>
+      </Methode>
+      <Methode Name="holdsPostObject">
+        <Documentation>
+          <UserDocu>Check if this pipeline holds a given post-processing object</UserDocu>
+        </Documentation>
+      </Methode>
+      <Methode Name="read">
+        <Documentation>
+          <UserDocu>Read in result file</UserDocu>
+        </Documentation>
+      </Methode>
+      <Methode Name="advance">
+        <Documentation>
+          <UserDocu>Advance in index along timeline</UserDocu>
+        </Documentation>
+      </Methode>
+    </PythonExport>
+</GenerateModel>

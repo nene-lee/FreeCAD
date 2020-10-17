@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
+    <PythonExport
+        Father="GeoFeaturePy"
+        Name="PostObjectPy"
+        Twin="PostObject"
+        TwinPointer="PostObject"
+        Include="Mod/Cfd/App/PostObject.h"
+        Namespace="Cfd"
+        FatherInclude="App/GeoFeaturePy.h"
+        FatherNamespace="App">
+        <Documentation>
+            <Author Licence="LGPL" Name="Nene Li" EMail="nene_lee@163.com" />
+            <UserDocu>The PostPipeline class.</UserDocu>
+        </Documentation>
+        <Methode Name="load">
+            <Documentation>
+                <UserDocu>Load the other object</UserDocu>
+            </Documentation>
+        </Methode>
+    </PythonExport>
+</GenerateModel>

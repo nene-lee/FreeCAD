@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
+    <PythonExport
+        Father="DocumentObjectPy"
+        Name="ResultObjectPy"
+        Twin="ResultObject"
+        TwinPointer="ResultObject"
+        Include="Mod/Cfd/App/ResultObject.h"
+        Namespace="Cfd"
+        FatherInclude="App/DocumentObjectPy.h"
+        FatherNamespace="App">
+        <Documentation>
+            <Author Licence="LGPL" Name="Nene Li" EMail="nene_lee@163.com" />
+            <UserDocu>The ResultObject class.</UserDocu>
+        </Documentation>
+    </PythonExport>
+</GenerateModel>

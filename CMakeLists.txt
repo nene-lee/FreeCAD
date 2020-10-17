@@ -243,6 +243,7 @@ if(APPLE)
 endif(APPLE)
 
 OPTION(BUILD_FEM "Build the FreeCAD FEM module" ON)
+OPTION(BUILD_CFD "Build the FreeCAD CFD module" ON)
 OPTION(BUILD_SANDBOX "Build the FreeCAD Sandbox module which is only for testing purposes" OFF)
 OPTION(BUILD_TEMPLATE "Build the FreeCAD template module which is only for testing purposes" OFF)
 OPTION(BUILD_ADDONMGR "Build the FreeCAD addon manager module" ON)

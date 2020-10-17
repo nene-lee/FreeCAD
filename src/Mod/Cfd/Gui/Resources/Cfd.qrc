@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>icons/workbench.svg</file>
+        <file>icons/solver_standard.svg</file>
+        <file>icons/vcr_first32.png</file>
+        <file>icons/vcr_back32.png</file>
+        <file>icons/vcr_play32.png</file>
+        <file>icons/vcr_pause32.png</file>
+        <file>icons/vcr_forward32.png</file>
+        <file>icons/vcr_last32.png</file>
+        <file>icons/import_mesh.svg</file>
+        <file>icons/post_result_show.svg</file>
+        <file>icons/post_results_purge.svg</file>
+        <file>icons/post_object.svg</file>
+        <file>icons/post_pipeline.svg</file>
+        <file>icons/geo_plane.svg</file>
+        <file>icons/geo_sphere.svg</file>
+        <file>icons/cut_function.svg</file>
+        <file>icons/clip_region.svg</file>
+        <file>icons/clip_scalar.svg</file>
+        <file>icons/contour.svg</file>
+        <file>icons/glyph24.png</file>
+        <file>icons/stream_tracer24.png</file>
+        <file>icons/data_along_line.svg</file>
+        <file>icons/data_at_point.svg</file>
+        <file>icons/warp_vector.svg</file>
+        <file>translations/StartPage_zh-CN.qm</file>
+    </qresource>
+</RCC>
