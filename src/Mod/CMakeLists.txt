@@ -106,6 +106,10 @@ if(BUILD_CFD)
     add_subdirectory(Cfd)
 endif(BUILD_CFD)
 
+if(BUILD_GDML)
+	add_subdirectory(GDML)
+endif(BUILD_GDML)
+
 if(BUILD_SANDBOX)
     add_subdirectory(Sandbox)
 endif(BUILD_SANDBOX)
