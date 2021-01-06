@@ -15,7 +15,10 @@ include_directories(
     ${PYTHON_INCLUDE_PATH}
     ${XERCESC_INCLUDE_DIR}
     ${OCC_INCLUDE_DIR}
+	${Geant4_INCLUDE_DIRS}
 )
+
+link_directories(${Geant4_LIBRARIES})
 
 set(GDMLGui_LIBS
     ${OCC_LIBRARIES}

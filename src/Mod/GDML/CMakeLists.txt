@@ -1,3 +1,5 @@
+find_package(Geant4 REQUIRED)
+
 if(BUILD_GUI)
     add_subdirectory(Gui)
 endif(BUILD_GUI)
